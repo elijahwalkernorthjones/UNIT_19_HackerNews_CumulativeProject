@@ -5,9 +5,14 @@
 }
 
 .stories-list > li {
-  color: gray;
+  color: rgb(128, 128, 128);
   font-size: 0.8rem;
   margin: 10px 0;
+}
+
+.stories-list > li .star {
+  color: rgb(255, 204, 0); 
+
 }
 
 #favorited-stories,
@@ -24,6 +29,10 @@
 
 
 /* Individual stories */
+.star:hover {
+color: rgb(205, 167, 0);
+
+}
 
 .star,
 .trash-can {
@@ -49,8 +58,17 @@
 
 .story-author {
   margin-left: 2em;
+  color: green;
+  display: block;
+  padding: .3em;
+  font-size: 1em;
+  margin: auto;
 }
 
 .story-user {
   display: block;
+  color: rgb(228, 164, 4);
+  display: block;
+  padding: .3em;
+  font-size: 1em;
 }
